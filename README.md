@@ -9,5 +9,5 @@ pip3 install -r requirements.txt
 
 In order to start the development server run:
 ```
-sphinx-autobuild . _build/html/
+sphinx-autobuild -i ".git/*" -i "venv/*" . _build/html/
 ```
